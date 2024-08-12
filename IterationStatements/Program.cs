@@ -7,47 +7,57 @@ namespace IterationStatements
     {
         static void Main(string[] args)
         {
-                //TODO - Read each comment and complete its instruction
-                // like the example below
+            // TODO: Follow the instructions provided in each comment below to complete the exercise.
+            // Use the example given to guide your implementation.
 
-                //Create a List called "numbers" - DONE!
-                var numbers = new List<int>();
+            //Create a List called "numbers" - DONE!
+            List<int> numbers = new List<int>();  //DO NOT ERASE THIS! You will use this in the exercise.
             
             //-----START HERE------------------------------------------
-            //Create a variable of type int and name it num
-            //initialize the variable with a value of 0
+
+            //TODO - Create a variable of type int and name it "num"
+            //TODO - Initialize the variable with a value of 0
 
 
 
-            // Create a do-while loop and use the template below:
+            //TODO - Create a do-while loop using the existing brackets as a template.
+            // The existing brackets are placeholders for your loop code.
+            // Inside this loop:
+            // a) Increment "num" by 1
+            // b) Then add "num" to the collection "numbers"
+            //    Hint: Use "numbers.Add(num);" to add the current value of "num" to the list.
 
             {
-                // Increment num by 1
+                // Your code goes here
+                numbers.Add(/*num*/); //uncomment out `num` to add it to the collection "numbers"
+            } 
+            //TODO - Continue the loop while "num" is less than 100
+            
 
-                // Then add num to the collection - numbers
-                    // Hint: reference num inside of the Add method's parentheses
-                numbers.Add(/* num */);
+            //TODO - Create a while loop using the existing brackets as a template.
+            //TODO - Continue the loop while "num" is less than 200
+            // The existing brackets are placeholders for your loop code.
+            // Inside this loop:
+            // a) Increment "num" by 1
+            // b) Then add "num" to the collection "numbers"
+            //    Hint: You can copy how this was done in the do-while loop
 
-            } // <---- While your variable is less than 100
-
-
-
-            // Create a while loop
-            // <--- While num is less than 200
             {
-                // Increment num by 1
-                // Then add num to the collection numbers
-                    //HINT: copy how this was done in the do while loop
-
+                // Your code goes here
             }
+            
 
 
             // This is to show the user that the numbers will start increasing on the console
             Console.WriteLine("Increase:");
 
 
-            // Create a foreach loop using the collection - numbers
-                //In the scope of the foreach loop, print each number in numbers
+            //TODO - Create a foreach loop using the existing brackets as a template.
+            // The existing brackets are placeholders for your loop code.
+            // Inside this loop, print each number in "numbers".
+            {
+                // Your code goes here
+            }
              
 
 
@@ -55,18 +65,23 @@ namespace IterationStatements
             Console.WriteLine("Decrease:");
 
 
-            // Create a for loop - this will print the numbers in reverse order - from 200 to 1
-                // in your initializer set the value of i to 199
-                // in your conditional, as long as i is less than or equal to the amount of items in "numbers" - use (numbers.Count)
-                // AND as long as i is greater than or equal to 0
-                // Decrement i by 1
+            //TODO - Create a for loop using the existing brackets as a template.
+            // The existing brackets are placeholders for your loop code.
+            // This loop will print the numbers in reverse order - from 200 to 1.
 
-            //start for loop here
+            // a) In your initializer, set the value of "i" to 199
+            // b) In your conditional, ensure that the loop continues as long as "i" is:
+            //    - Less than or equal to the number of items in "numbers" (use "numbers.Count")
+            //    - Greater than or equal to 0
+            // c) Decrement "i" by 1 in each iteration
+
             {
-                // place numbers[i] inside of the Console.WriteLine() method
+                //TODO - Inside the loop, place numbers[i] inside of the Console.WriteLine() method
+                Console.WriteLine(numbers[i]); // Example placement of numbers[i] inside Console.WriteLine
             }
 
             //------------End of exercise
+
         }
     }
 }
